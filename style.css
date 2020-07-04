@@ -1,0 +1,68 @@
+/* Style the header */
+.header {
+   padding-bottom: 1px;
+    background: #555;
+    color: #f1f1f1;
+    text-align: center;
+    background-size: 10px;
+    width: 50%;
+    margin: 0px auto 0px auto;
+  }
+  
+  /* Page content */
+  
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    
+    
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  
+
+  
+
+  .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    text-align: center;
+    
+  }
+  
+  /* Spaces */
+  .HeaderSpace{
+    margin-top: 100px;
+  }
+  .ListSpace{
+    margin-top: 35px;
+  }
+
+  ol,ul{
+      list-style-position: inside;
+  }
